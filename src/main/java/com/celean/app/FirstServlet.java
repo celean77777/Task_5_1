@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+// публикуем 10 продуктов
 @WebServlet(name = "FirstServlet", urlPatterns = "/first_servlet")
 public class FirstServlet extends HttpServlet {
     @Override
