@@ -11,8 +11,7 @@ public class Product {
         this.cost = cost;
     }
 
-    public Product() {
-    }
+
 
     @Override
     public String toString(){
